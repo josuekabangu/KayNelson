@@ -1,0 +1,19 @@
+{
+  "name": "KayNelson",
+  "private": true,
+  "dependencies": {
+    "@rails/webpacker": "5.1.1",
+    "bootstrap": "^4.5.3"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^3.11.0"
+  },
+  "babel": {
+    "presets": [
+      "./node_modules/@rails/webpacker/package/babel/preset.js"
+    ]
+  },
+  "browserslist": [
+    "defaults"
+  ]
+}
